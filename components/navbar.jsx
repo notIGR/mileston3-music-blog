@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import AuthLogin from './login-btn'
 
 function Navbar() {
     return (
@@ -30,6 +31,7 @@ function Navbar() {
                                 <Link href="/blog" className='p-3 hover:text-white'>Blog</Link>
                             </li>
                         </ul>
+                        <AuthLogin />
                     </div>
                 </div>
             </nav>

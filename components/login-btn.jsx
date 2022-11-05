@@ -7,6 +7,7 @@ export default function AuthLogin() {
         return (
             <>
                 Signed in as {session.user.email} <br />
+                <img src={session.user.image} at="auth profile picture" style={{borderRadius: '50px'}} />
                 <button onClick={() => signOut()}>Sign Out</button>
             </>
         )
