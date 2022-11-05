@@ -22,9 +22,6 @@ function Navbar() {
                                 <Link href="/" className='p-3 hover:text-white'>Home</Link>
                             </li>
                             <li className='sm:inline-block'>
-                                <Link href="/profile" className='p-3 hover:text-white'>Profile</Link>
-                            </li>
-                            <li className='sm:inline-block'>
                                 <Link href="/about" className='p-3 hover:text-white'>About</Link>
                             </li>
                             <li className='sm:inline-block'>
