@@ -15,8 +15,13 @@ export default NextAuth({
         })
         //add more providers here
     ],
-
-    secret: process.env.JWT_SECRET,
-
+    database: process.env.DB_URL,
+    session: {
+        jwt: true
+    },
+    jwt: {
+        secret: process.env.JWT_SECRET
+    }
+    //secret: process.env.JWT_SECRET,
 })
 
