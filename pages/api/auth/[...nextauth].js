@@ -15,6 +15,7 @@ export default NextAuth({
         })
         //add more providers here
     ],
+    adapter: MongoDBAdapter(clientPromise),
     database: process.env.DB_URL,
     session: {
         jwt: true
@@ -22,6 +23,5 @@ export default NextAuth({
     jwt: {
         secret: process.env.JWT_SECRET
     }
-    //secret: process.env.JWT_SECRET,
 })
 
