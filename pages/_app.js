@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import Navbar from '../components/navbar'
 import { SessionProvider } from 'next-auth/react'
+import Footer from '../components/footer'
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   return (
@@ -8,6 +9,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
       <SessionProvider session={session}>
         <Navbar />
         <Component {...pageProps} />
+        <Footer />
       </SessionProvider>
     </>
   )
