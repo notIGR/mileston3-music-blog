@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This web app is a blog for an individual sharing information to others via articles. 
 Cick the links in the nav bar to read diffecnt subjects.
-In this app I used the Next.js framework and a mixture of global css and tailwind for the design. For my database i used #####. 
+In this app I used the Next.js framework and a mixture of global css and tailwind for the design. For my database i used postgresSQL w/prisma. 
 My project was launched via Vercel.
 
 ## Getting Started
