@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+This web app is a blog for an individual sharing information to others via articles. 
+Cick the links in the nav bar to read diffecnt subjects.
+
 ## Getting Started
 
 First, run the development server:
