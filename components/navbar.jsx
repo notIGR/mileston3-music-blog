@@ -27,6 +27,9 @@ function Navbar() {
                             <li className='sm:inline-block'>
                                 <Link href="/blog" className='p-3 hover:text-white'>Blog</Link>
                             </li>
+                            <li className='sm:inline-block'>
+                                <Link href="/playlist" className='p-3 hover:text-white'>Playlist</Link>
+                            </li>
                         </ul>
                         <AuthLogin />
                     </div>
