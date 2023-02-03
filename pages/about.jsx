@@ -13,7 +13,7 @@ function Profile() {
         <hr />
         <div>
           <div>
-            <p>Hello and welcom to my blog. My passion for music knows no bounds. I have noticed that just because ypou are popular does not mean you are equaly talented. My reason for learning web development is to be able to build websites and shine a light on the not so popular... yet oh so talented artist that just don't get enough recocnition.</p>
+            <p>Hello and welcome to my blog. My passion for music knows no bounds. I have noticed that just because you are popular does not mean you are equaly talented. My reason for learning web development is to be able to build websites and shine a light on the not so popular... yet oh so talented artist that just don't get enough recognition.</p>
             <p>
               Just to give a idea of what kind of music I listen to here are a few of my favorite songs...
               <ol>
