@@ -4,7 +4,7 @@ This web app is a blog for an individual sharing information to others via artic
 Cick the links in the nav bar to read diffecnt subjects.
 In this app I used the Next.js framework and a mixture of global css and tailwind for the design. For my database i used postgresSQL w/prisma. 
 My project was launched via Vercel.
-
+All icons/images where imported from an open source websit https://game-icons.net/
 ## Getting Started
 
 First, run the development server:
